@@ -10,4 +10,4 @@ try:
 
 except Exception as error:
     print("Table creation failed!")
-    print(error)
+    print(error)python test_db.py
