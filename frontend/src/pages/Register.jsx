@@ -45,7 +45,7 @@ const handleSubmit = async (e) => {
 
   try {
     const response = await axios.post(
-      "http://127.0.0.1:8000/auth/register",
+      "https://cm-kerala-api-6x3u.onrender.com/auth/register",
       {
         name: formData.name,
         email: formData.email,

@@ -20,7 +20,7 @@ export default function TrackGrievance() {
       const token = localStorage.getItem("access_token");
 
       const response = await axios.get(
-        `http://127.0.0.1:8000/grievances/track/${encodeURIComponent(referenceId.trim())}`,
+        `https://cm-kerala-api-6x3u.onrender.com/grievances/track/${encodeURIComponent(referenceId.trim())}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
